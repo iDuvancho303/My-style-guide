@@ -5,6 +5,11 @@
     src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
     src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
 }
+@font-face {
+    font-family: 'montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
 
-
-
+body {
+   font-family: 'montserrat';
+}
