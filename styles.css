@@ -1,1 +1,10 @@
 /*FONTS FILES*/
+@font-face {
+    font-family: 'nunito sans';
+    src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+}
+
+
+
