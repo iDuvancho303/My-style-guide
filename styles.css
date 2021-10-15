@@ -1,14 +1,15 @@
 /*FONTS FILES*/
 @font-face {
     font-family: 'nunito sans';
-    src: url(/fonts/nunito-sans/NunitoSans-Regular.ttf);
-    src: url(/fonts/nunito-sans/NunitoSans-Italic.ttf);
-    src: url(/fonts/nunito-sans/NunitoSans-Bold.ttf);
+    src: url(fonts/nunito-sans/NunitoSans-Regular.ttf);
+    src: url(fonts/nunito-sans/NunitoSans-Italic.ttf);
+    src: url(fonts/nunito-sans/NunitoSans-Bold.ttf);
 }
 
 @font-face {
     font-family: 'montserrat';
-    src: url()
-    src: url();
-    src: url();
+    src: url(fonts/montserrat/Montserrat-Regular.ttf);
+    src: url(fonts/montserrat/Montserrat-Italic.ttf);
+    src: url(fonts/montserrat/Montserrat-Bold.ttf);
 }
+
