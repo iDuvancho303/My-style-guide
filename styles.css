@@ -35,6 +35,7 @@ h1 {
 h2 {
     font-size: 36px;
     text-decoration: underline;
+    background-color: white;
 }
 .special {
     text-align: center;
