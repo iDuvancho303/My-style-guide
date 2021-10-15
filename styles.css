@@ -1,6 +1,6 @@
 /*FONTS FILES*/
 @font-face {
-    font-family: 'nunito sans';
+    font-family: 'nunito-sans';
     src: url(fonts/nunito-sans/NunitoSans-Regular.ttf);
     src: url(fonts/nunito-sans/NunitoSans-Italic.ttf);
     src: url(fonts/nunito-sans/NunitoSans-Bold.ttf);
@@ -19,3 +19,18 @@
     src: url(fonts/roboto/Roboto-Italic.ttf);
     src: url(fonts/roboto/Roboto-Bold.ttf);  
 }
+
+body {
+    font-family: 'roboto';
+    background-color: whitesmoke;
+    color: #161716;
+    margin: 0 10%;
+}
+.color-container, .fonts-container, .styles-container {
+    border: 3px solid #a2a2a6;
+    margin: 30px 30px;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 20px;
+}
+    
