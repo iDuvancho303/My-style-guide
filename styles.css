@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: 'roboto';
+    font-family: 'montserrat';
     background-color: whitesmoke;
     color: #161716;
     margin: 0 10%;
@@ -29,7 +29,16 @@ body {
 
 h1 {
     font-size: 35px;
-    
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    text-decoration: underline;
+}
+.special {
+    text-align: center;
+    font-size: 35px;
 }
 .color-container, .fonts-container, .styles-container {
     border: 3px solid #a2a2a6;
@@ -38,6 +47,79 @@ h1 {
     overflow: auto;
     border-radius: 20px;
 }
+/*NUNITO SANS FONT*/
+.nunito-sans {
+    font-family: 'nunito-sans';
+    font-style: normal;
+    font-size: 24px;
+}
+
+.nunito-sans .normal-font {
+    font-family: 'nunito-sans';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.nunito-sans .italic-font {
+    font-family: 'nunito-sans';
+    font-style: italic;
+    font-size: 16px;
+}
+
+.nunito-sans .bold-font {
+    font-family: 'nunito-sans';
+    font-weight: bold;
+    font-size: 18px;
+}
+/*MONTSERRAT FONT*/
+.montserrat {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-size: 24px;
+}
+
+.montserrat .normal-font {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.montserrat .italic-font {
+    font-family: 'montserrat';
+    font-style: italic;
+    font-size: 16px;
+}
+
+.montserrat .bold-font {
+    font-family: 'montserrat';
+    font-weight: bold;
+    font-size: 18px;
+}
+/*ROBOTO FONT*/
+.roboto {
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 24px;
+}
+
+.roboto .normal-font {
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.roboto .italic-font {
+    font-family: 'roboto';
+    font-style: italic;
+    font-size: 16px;
+}
+
+.roboto .bold-font {
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 18px;
+}
+
 
 /*COLORS SECTION*/
 .color-yellow, .color-blue, .color-red, .color-gray {
