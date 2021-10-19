@@ -120,10 +120,13 @@ h2 {
     font-size: 18px;
 }
 
-
+.color-container {
+    display: flex;
+    justify-content: space-evenly;
+}
 /*COLORS SECTION*/
 .color-yellow, .color-blue, .color-red, .color-gray {
-    display: inline-block;
+    /*display: inline-block; */
     margin-right: 30px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -138,6 +141,7 @@ h2 {
     font-weight: bold;
     font-size: 28px;
 }
+
 
 .color-yellow {
     background-color: #FFFF33;
@@ -154,3 +158,4 @@ h2 {
 .color-gray {
     background-color: #444444;
 }
+
