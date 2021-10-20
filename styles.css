@@ -35,6 +35,7 @@ h1 {
 h2 {
     font-size: 36px;
     text-decoration: underline;
+    flex-basis: 100%;
 }
 .special {
     text-align: center;
@@ -123,6 +124,7 @@ h2 {
 .color-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 /*COLORS SECTION*/
 .color-yellow, .color-blue, .color-red, .color-gray {
